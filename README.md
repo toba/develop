@@ -1,9 +1,9 @@
+<img src='https://toba.github.io/about/images/logo-colored.svg' width="100" align="right"/>
+
+
 [![npm package](https://img.shields.io/npm/v/@toba/develop.svg)](https://www.npmjs.org/package/@toba/develop)
 [![Dependencies](https://img.shields.io/david/toba/develop.svg)](https://david-dm.org/toba/develop)
 
-
-
-<img src='https://toba.github.io/about/images/logo-colored.svg' width="100" align="right"/>
 
 ## Toba Develop
 
