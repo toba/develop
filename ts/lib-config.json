@@ -1,0 +1,14 @@
+{
+   "extends": "./config",
+   "compilerOptions": {
+      "sourceMap": true,
+      "outDir": "../../../../js",
+      "lib": ["dom", "es2017", "es2018.intl"]
+   },
+   "exclude": [
+      "../../../../node_modules/",
+      "../../../../js/",
+      "../../../../lib/**/*.test.ts?",
+      "../../../../lib/**/__mocks__"
+   ]
+}

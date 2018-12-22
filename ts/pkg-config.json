@@ -1,0 +1,14 @@
+{
+   "extends": "./config",
+   "compilerOptions": {
+      "moduleResolution": "node",
+      "composite": true,
+      "rootDir": "../../../../",
+      "baseUrl": "../../../../packages",
+      "paths": {
+         "@platform/*": ["../../../../packages/*/src"]
+      },
+      "jsx": "preserve"
+   },
+   "include": ["../../../../packages/**/src/**/*.ts?"]
+}

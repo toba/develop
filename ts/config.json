@@ -1,0 +1,32 @@
+{
+   "compilerOptions": {
+      "target": "es2017",
+      "module": "commonjs",
+      "newLine": "LF",
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "sourceMap": false,
+      "allowJs": false,
+      "checkJs": false,
+      "outDir": "../../../../dist",
+      "removeComments": false,
+      "declaration": true,
+      "alwaysStrict": true,
+      "strictNullChecks": true,
+      "strictBindCallApply": true,
+      "skipLibCheck": true,
+      "allowSyntheticDefaultImports": false,
+      "forceConsistentCasingInFileNames": true,
+      "jsx": "react",
+      "lib": ["dom", "es2017", "webworker", "es2018.intl"]
+   },
+   "include": ["../../../../lib/**/*.ts?"],
+   "exclude": [
+      "../../../../node_modules/",
+      "../../../../dist/",
+      "../../../../lib/**/*.test.ts?",
+      "../../../../lib/**/__mocks__"
+   ]
+}
