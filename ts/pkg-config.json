@@ -10,5 +10,5 @@
       },
       "jsx": "preserve"
    },
-   "include": ["../../../../packages/**/src/**/*.ts?"]
+   "include": ["../../../../packages/**/src/**/*.ts*"]
 }
