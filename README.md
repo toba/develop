@@ -1,13 +1,11 @@
 <img src='https://toba.github.io/about/images/logo-colored.svg' width="100" align="right"/>
 
-
 [![npm package](https://img.shields.io/npm/v/@toba/develop.svg)](https://www.npmjs.org/package/@toba/develop)
 [![Dependencies](https://img.shields.io/david/toba/develop.svg)](https://david-dm.org/toba/develop)
 
+# Toba Develop
 
-## Toba Develop
-
-Shared `tslint` configuration with [tslint-config-prettier](https://github.com/alexjoverm/tslint-config-prettier) and [tslint-consistent-codestyle](https://github.com/ajafff/tslint-consistent-codestyle) for use in Toba projects.
+Common development configurations.
 
 ```sh
 yarn add @toba/develop --dev
@@ -19,24 +17,46 @@ or
 npm install @toba/develop --save-dev
 ```
 
-then create `tslint.json` with
+## TypeScript Configurations
 
-```
+Create `tsconfig.json` with
+
+```json
 {
-   "extends": [
-      "@toba/develop/ts"
-   ]
+   "extends": "./node_modules/@toba/develop/ts/config"
 }
 ```
 
-and add a `stylelint` section to `package.json`
+In addition to `config` there are `lib-config` and `pkg-config` at the same path.
 
+## Style and Linting
+
+### [tslint](https://palantir.github.io/tslint/)
+
+Shared `tslint` configuration with [tslint-config-prettier](https://github.com/alexjoverm/tslint-config-prettier) and [tslint-consistent-codestyle](https://github.com/ajafff/tslint-consistent-codestyle). To use, create `tslint.json` with
+
+```json
+{
+   "extends": ["@toba/develop/ts"]
+}
 ```
-   "stylelint": {
-      "plugins": [
-         "@toba/develop/style"
-      ]
-   }
+
+### [stylelint](https://stylelint.io/)
+
+For standard style linting, create `.stylelintrc` with
+
+```json
+{
+   "plugins": ["@toba/develop/style"]
+}
+```
+
+### [prettier](https://prettier.io/)
+
+For standard code formatting, create `prettier.config.js` with
+
+```js
+module.exports = require('@toba/develop/prettier');
 ```
 
 ## License
