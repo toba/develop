@@ -14,5 +14,5 @@ module.exports = {
       'no-missing-end-of-source-newline': null,
       indentation: 3
    },
-   ruleName: '@toba/build/style'
+   ruleName: '@toba/develop/style'
 };
