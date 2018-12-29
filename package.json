@@ -1,7 +1,7 @@
 {
    "name": "@toba/develop",
    "description": "Toba TypeScript and Style Configurations",
-   "version": "3.1.0",
+   "version": "3.1.1",
    "private": false,
    "publishConfig": {
       "access": "public"
@@ -14,6 +14,7 @@
    "files": [
       "style",
       "ts",
+      "prettier",
       "index.js"
    ],
    "keywords": [
