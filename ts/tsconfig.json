@@ -30,6 +30,8 @@
    "exclude": [
       "../../../../node_modules/!(@toba*)",
       "../../../../node_modules/@toba/**/*.test.ts",
+      "../../../../node_modules/@toba/test/",
+      "../../../../node_modules/@toba/logger/",
       "../../../../dist/",
       "../../../../lib/**/*.test.ts*",
       "../../../../lib/**/__mocks__"
