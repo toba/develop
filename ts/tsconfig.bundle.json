@@ -1,0 +1,8 @@
+{
+   "extends": "./tsconfig.lib.json",
+   "compilerOptions": {
+      "declaration": false,
+      // allow JS so bundled TS components can import ES6 node_modules
+      "allowJs": true
+   }
+}

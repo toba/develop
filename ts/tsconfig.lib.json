@@ -3,9 +3,6 @@
    "compilerOptions": {
       "sourceMap": false,
       "module": "esnext",
-      "moduleResolution": "node",
-      // Must allow JS since TS components will import ES6 node_modules
-      "allowJs": true,
       "lib": ["dom", "es2017", "es2018.intl"]
    }
 }
