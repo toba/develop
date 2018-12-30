@@ -1,5 +1,5 @@
 {
-   "extends": "./config",
+   "extends": "./tsconfig.json",
    "compilerOptions": {
       "moduleResolution": "node",
       "composite": true,

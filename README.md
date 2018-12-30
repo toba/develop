@@ -23,11 +23,11 @@ Create `tsconfig.json` with
 
 ```json
 {
-   "extends": "./node_modules/@toba/develop/ts/config"
+   "extends": "./node_modules/@toba/develop/ts/tsconfig"
 }
 ```
 
-In addition to `config` there are `lib-config` and `pkg-config` at the same path.
+In addition to `tsconfig` there are `tsconfig.lib` and `tsconfig.pkg` at the same path.
 
 ## Style and Linting
 
