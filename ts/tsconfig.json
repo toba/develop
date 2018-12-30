@@ -2,6 +2,7 @@
    "compilerOptions": {
       "target": "es2017",
       "module": "commonjs",
+      "moduleResolution": "node",
       "newLine": "LF",
       "noImplicitAny": true,
       "noImplicitThis": true,
@@ -22,9 +23,13 @@
       "jsx": "react",
       "lib": ["dom", "es2017", "webworker", "es2018.intl"]
    },
-   "include": ["../../../../lib/**/*.ts*"],
+   "include": [
+      "../../../../lib/**/*.ts*",
+      "../../../../node_modules/@toba/**/*.ts*"
+   ],
    "exclude": [
-      "../../../../node_modules/",
+      "../../../../node_modules/!(@toba*)",
+      "../../../../node_modules/@toba/**/*.test.ts",
       "../../../../dist/",
       "../../../../lib/**/*.test.ts*",
       "../../../../lib/**/__mocks__"
