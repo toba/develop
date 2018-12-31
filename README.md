@@ -35,7 +35,7 @@ Shared `tslint` configuration with [tslint-config-prettier](https://github.com/a
 
 ```json
 {
-   "extends": ["@toba/develop/ts"]
+   "extends": ["@toba/develop/tslint"]
 }
 ```
 

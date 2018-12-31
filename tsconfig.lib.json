@@ -1,0 +1,12 @@
+// This configuration is expected for use directly by tsc to generate a /dist
+// folder for npm publication.
+{
+   "extends": "./tsconfig",
+   "compilerOptions": {
+      "sourceMap": false,
+      // Projects built as a library should be compiled as ES6 modules to
+      // enable tree shaking when subsequently imported and bundled.
+      "module": "esnext",
+      "lib": ["dom", "es2017", "es2018.intl"]
+   }
+}
