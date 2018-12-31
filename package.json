@@ -40,10 +40,6 @@
       "tslint-consistent-codestyle": "^1.14.0",
       "typescript": "^3.2.0"
    },
-   "prettier": {
-      "singleQuote": true,
-      "tabWidth": 3
-   },
    "repository": {
       "type": "git",
       "url": "https://github.com/toba/develop"
