@@ -26,12 +26,9 @@
       "jsx": "react",
       "lib": ["dom", "es2017", "webworker", "es2018.intl"]
    },
-   "include": ["../../../lib/**/*.ts*", "../../../node_modules/@toba/**/*.ts*"],
+   "include": ["../../../lib/**/*.ts*"],
    "exclude": [
-      "../../../node_modules/!(@toba*)",
-      "../../../node_modules/@toba/**/*.test.ts",
-      "../../../node_modules/@toba/test/",
-      "../../../node_modules/@toba/logger/",
+      "../../../node_modules/",
       "../../../dist/",
       "../../../lib/**/*.test.ts*",
       "../../../lib/**/__mocks__"

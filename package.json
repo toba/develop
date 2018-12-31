@@ -1,7 +1,7 @@
 {
    "name": "@toba/develop",
    "description": "Toba TypeScript and Style Configurations",
-   "version": "4.1.3",
+   "version": "4.1.4",
    "private": false,
    "publishConfig": {
       "access": "public"
