@@ -11,7 +11,7 @@
       "sourceMap": false,
       "allowJs": false,
       "checkJs": false,
-      "outDir": "../../../../dist",
+      "outDir": "../../../dist",
       "removeComments": false,
       "declaration": true,
       "alwaysStrict": true,
@@ -23,17 +23,14 @@
       "jsx": "react",
       "lib": ["dom", "es2017", "webworker", "es2018.intl"]
    },
-   "include": [
-      "../../../../lib/**/*.ts*",
-      "../../../../node_modules/@toba/**/*.ts*"
-   ],
+   "include": ["../../../lib/**/*.ts*", "../../../node_modules/@toba/**/*.ts*"],
    "exclude": [
-      "../../../../node_modules/!(@toba*)",
-      "../../../../node_modules/@toba/**/*.test.ts",
-      "../../../../node_modules/@toba/test/",
-      "../../../../node_modules/@toba/logger/",
-      "../../../../dist/",
-      "../../../../lib/**/*.test.ts*",
-      "../../../../lib/**/__mocks__"
+      "../../../node_modules/!(@toba*)",
+      "../../../node_modules/@toba/**/*.test.ts",
+      "../../../node_modules/@toba/test/",
+      "../../../node_modules/@toba/logger/",
+      "../../../dist/",
+      "../../../lib/**/*.test.ts*",
+      "../../../lib/**/__mocks__"
    ]
 }
