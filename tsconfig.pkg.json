@@ -1,0 +1,14 @@
+// Configuration for use in a mono-repo with module sources all within a
+// ./packages folder. This is not the same TypeScript configuration needed to
+// bundle the various packages. For that see @toba/build.
+{
+   "extends": "./tsconfig",
+   "include": ["../../../packages/**/src/**/*.ts*"],
+   "exclude": [
+      "../../../node_modules/",
+      "../../../dist/",
+      "../../../packages/**/src/**/*.test.ts*",
+      "../../../packages/**/src/**/__mocks__",
+      "../../../packages/**/node_modules"
+   ]
+}

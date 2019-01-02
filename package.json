@@ -1,7 +1,7 @@
 {
    "name": "@toba/develop",
    "description": "Toba TypeScript and Style Configurations",
-   "version": "4.1.4",
+   "version": "4.2.0",
    "private": false,
    "publishConfig": {
       "access": "public"
@@ -17,7 +17,8 @@
       "prettier",
       "index.js",
       "tsconfig.json",
-      "tsconfig.lib.json"
+      "tsconfig.lib.json",
+      "tsconfig.pkg.json"
    ],
    "keywords": [
       "lint",

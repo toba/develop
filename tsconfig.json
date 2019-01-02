@@ -1,6 +1,5 @@
 // Configuration will be referenced at /node_modules/@toba/develop/tsconfig.json
 // so the path to the project root is ../../../.
-
 {
    "compilerOptions": {
       "target": "es2017",
