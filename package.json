@@ -1,7 +1,7 @@
 {
    "name": "@toba/develop",
    "description": "Toba TypeScript and Style Configurations",
-   "version": "4.2.0",
+   "version": "4.3.0",
    "private": false,
    "publishConfig": {
       "access": "public"
@@ -44,9 +44,6 @@
    "repository": {
       "type": "git",
       "url": "https://github.com/toba/develop"
-   },
-   "bugs": {
-      "url": "https://github.com/toba/develop/issues"
    },
    "devDependencies": {
       "jest": "^23.6.0"

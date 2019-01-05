@@ -1,14 +1,33 @@
-// Configuration for use in a mono-repo with module sources all within a
-// ./packages folder. This is not the same TypeScript configuration needed to
-// bundle the various packages. For that see @toba/build.
+// Configuration for developing a monorepo with module sources all within a root
+// ./packages folder. The root tsconfig file must extend this and add package
+// paths. For example:
+//
+// "compilerOptions" {
+//    "paths": {
+//       "@org/*": ["./*/src"]
+//    }
+// }
+//
+// This is not the same TypeScript configuration needed to bundle the various
+// packages. For that see @toba/build.
 {
    "extends": "./tsconfig",
-   "include": ["../../../packages/**/src/**/*.ts*"],
+   "compilerOptions": {
+      "rootDir": "../../../",
+      "baseUrl": "../../../packages/",
+      "composite": true,
+      "typeRoots": [
+         "../../../node_modules/@types",
+         "../../../packages/*/node_modules/@types",
+         "../../../packages/types"
+      ]
+   },
+   "include": ["../../../packages/*/src/**/*.ts*"],
    "exclude": [
       "../../../node_modules/",
       "../../../dist/",
-      "../../../packages/**/src/**/*.test.ts*",
-      "../../../packages/**/src/**/__mocks__",
-      "../../../packages/**/node_modules"
+      "../../../packages/*/src/**/*.test.ts*",
+      "../../../packages/*/src/**/__mocks__",
+      "../../../packages/*/node_modules"
    ]
 }

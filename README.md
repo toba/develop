@@ -5,7 +5,8 @@
 
 # Toba Develop
 
-Common development configurations.
+Shared configurations for the development environment, including linting,
+code style and TypeScript compilation.
 
 ```sh
 yarn add @toba/develop --dev
