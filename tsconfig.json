@@ -25,11 +25,11 @@
       "jsx": "react",
       "lib": ["dom", "es2017", "webworker", "es2018.intl"]
    },
-   "include": ["../../../lib/**/*.ts*"],
+   "include": ["../../../src/**/*.ts*"],
    "exclude": [
       "../../../node_modules/",
       "../../../dist/",
-      "../../../lib/**/*.test.ts*",
-      "../../../lib/**/__mocks__"
+      "../../../src/**/*.test.ts*",
+      "../../../src/**/__mocks__"
    ]
 }
