@@ -1,11 +1,11 @@
-'use strict';
+import { Options } from 'prettier';
 
 /**
- * Prettier options.
- * @type {prettier.Options}
  * @see https://prettier.io/docs/en/options.html
  */
-module.exports = {
+const config: Options = {
    singleQuote: true,
    tabWidth: 3
 };
+
+export default config;

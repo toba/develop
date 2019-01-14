@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = {
+const config = {
    extends: ['tslint-config-prettier', 'tslint-consistent-codestyle'],
    rules: {
       'adjacent-overload-signatures': true,
@@ -73,3 +71,5 @@ module.exports = {
       whitespace: [true, 'check-branch', 'check-decl', 'check-separator']
    }
 };
+
+export default config;

@@ -1,12 +1,17 @@
-'use strict';
+export interface StyleConfig {
+   plugins: string | string[];
+   rules: { [key: string]: null | number | boolean };
+   ruleName?: string;
+}
 
-// https://github.com/stylelint/stylelint/blob/master/docs/developer-guide/plugins.md
-module.exports = {
+/**
+ * @see https://github.com/stylelint/stylelint/blob/master/docs/developer-guide/plugins.md
+ */
+const config: StyleConfig = {
    plugins: ['stylelint-config-standard', 'stylelint-scss'],
    rules: {
       'color-no-invalid-hex': true,
       'at-rule-empty-line-before': null,
-      'color-no-invalid-hex': true,
       'declaration-empty-line-before': null,
       'rule-empty-line-before': null,
       'declaration-block-single-line-max-declarations': 5,
@@ -16,3 +21,5 @@ module.exports = {
    },
    ruleName: '@toba/develop/style'
 };
+
+export default config;

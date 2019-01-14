@@ -1,7 +1,7 @@
 {
    "name": "@toba/develop",
    "description": "Toba TypeScript and Style Configurations",
-   "version": "4.3.1",
+   "version": "4.4.0",
    "private": false,
    "publishConfig": {
       "access": "public"
@@ -12,10 +12,14 @@
    },
    "license": "MIT",
    "files": [
-      "style",
-      "ts",
-      "prettier",
+      "style/index.js",
+      "style/index.d.ts",
+      "tslint/index.js",
+      "tslint/index.d.ts",
+      "prettier/index.js",
+      "prettier/index.d.ts",
       "index.js",
+      "index.d.ts",
       "tsconfig.json",
       "tsconfig.lib.json",
       "tsconfig.pkg.json"
@@ -30,8 +34,11 @@
       "stylelint",
       "stylelint-plugin"
    ],
+   "scripts": {
+      "prepublishOnly": "./node_modules/.bin/tsc --project tsconfig.build.json",
+      "test": "jest --coverage"
+   },
    "dependencies": {
-      "@types/prettier": "^1.15.2",
       "prettier": "^1.15.0",
       "stylelint": "^9.9.0",
       "stylelint-config-standard": "^18.2.0",
@@ -46,6 +53,7 @@
       "url": "https://github.com/toba/develop"
    },
    "devDependencies": {
-      "jest": "^23.6.0"
+      "@types/prettier": "^1.15.2",
+      "@types/stylelint": "^9.4.1"
    }
 }

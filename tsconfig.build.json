@@ -1,0 +1,11 @@
+// This configuration is expected for use directly by tsc to generate a /dist
+// folder for npm publication.
+{
+   "extends": "./tsconfig",
+   "compilerOptions": {
+      "lib": ["es2017"],
+      "outDir": ""
+   },
+   "files": ["index.ts", "./*/index.ts"],
+   "exclude": ["./node_modules/"]
+}
