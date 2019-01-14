@@ -6,6 +6,11 @@
       "lib": ["es2017"],
       "outDir": ""
    },
-   "files": ["index.ts", "./*/index.ts"],
+   "files": [
+      "index.ts",
+      "./prettier/index.ts",
+      "./style/index.ts",
+      "./tslint/index.ts"
+   ],
    "exclude": ["./node_modules/"]
 }

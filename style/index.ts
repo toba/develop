@@ -7,7 +7,7 @@ export interface StyleConfig {
 /**
  * @see https://github.com/stylelint/stylelint/blob/master/docs/developer-guide/plugins.md
  */
-const config: StyleConfig = {
+export default {
    plugins: ['stylelint-config-standard', 'stylelint-scss'],
    rules: {
       'color-no-invalid-hex': true,
@@ -20,6 +20,4 @@ const config: StyleConfig = {
       indentation: 3
    },
    ruleName: '@toba/develop/style'
-};
-
-export default config;
+} as StyleConfig;

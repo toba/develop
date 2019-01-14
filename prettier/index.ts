@@ -3,9 +3,7 @@ import { Options } from 'prettier';
 /**
  * @see https://prettier.io/docs/en/options.html
  */
-const config: Options = {
+export default {
    singleQuote: true,
    tabWidth: 3
-};
-
-export default config;
+} as Options;

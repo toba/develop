@@ -1,4 +1,4 @@
-const config = {
+export default {
    extends: ['tslint-config-prettier', 'tslint-consistent-codestyle'],
    rules: {
       'adjacent-overload-signatures': true,
@@ -71,5 +71,3 @@ const config = {
       whitespace: [true, 'check-branch', 'check-decl', 'check-separator']
    }
 };
-
-export default config;
