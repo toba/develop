@@ -1,5 +1,5 @@
 export = {
-  stylelint: require("./style"),
-  tslint: require("./tslint"),
-  prettier: require("./prettier")
+   stylelint: require('./style'),
+   tslint: require('./tslint'),
+   prettier: require('./prettier')
 };
