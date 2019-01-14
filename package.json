@@ -1,59 +1,56 @@
 {
-   "name": "@toba/develop",
-   "description": "Toba TypeScript and Style Configurations",
-   "version": "4.4.0",
-   "private": false,
-   "publishConfig": {
-      "access": "public"
-   },
-   "main": "index.js",
-   "author": {
-      "name": "Jason Abbott"
-   },
-   "license": "MIT",
-   "files": [
-      "style/index.js",
-      "style/index.d.ts",
-      "tslint/index.js",
-      "tslint/index.d.ts",
-      "prettier/index.js",
-      "prettier/index.d.ts",
-      "index.js",
-      "index.d.ts",
-      "tsconfig.json",
-      "tsconfig.lib.json",
-      "tsconfig.pkg.json"
-   ],
-   "keywords": [
-      "lint",
-      "tslint",
-      "ts-lint",
-      "config",
-      "typescript",
-      "linter",
-      "stylelint",
-      "stylelint-plugin"
-   ],
-   "scripts": {
-      "prepublishOnly": "./node_modules/.bin/tsc --project tsconfig.build.json",
-      "test": "jest --coverage"
-   },
-   "dependencies": {
-      "prettier": "^1.15.0",
-      "stylelint": "^9.9.0",
-      "stylelint-config-standard": "^18.2.0",
-      "stylelint-scss": "^3.4.0",
-      "tslint": "^5.11.0",
-      "tslint-config-prettier": "^1.17.0",
-      "tslint-consistent-codestyle": "^1.14.0",
-      "typescript": "^3.2.0"
-   },
-   "repository": {
-      "type": "git",
-      "url": "https://github.com/toba/develop"
-   },
-   "devDependencies": {
-      "@types/prettier": "^1.15.2",
-      "@types/stylelint": "^9.4.1"
-   }
+  "name": "@toba/develop",
+  "description": "Toba TypeScript and Style Configurations",
+  "version": "4.4.1",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "author": {
+    "name": "Jason Abbott"
+  },
+  "license": "MIT",
+  "files": [
+    "style",
+    "tslint",
+    "prettier",
+    "index.js",
+    "index.d.ts",
+    "tsconfig.json",
+    "tsconfig.lib.json",
+    "tsconfig.pkg.json"
+  ],
+  "keywords": [
+    "lint",
+    "tslint",
+    "ts-lint",
+    "config",
+    "typescript",
+    "linter",
+    "stylelint",
+    "stylelint-plugin"
+  ],
+  "scripts": {
+    "prepublishOnly": "./node_modules/.bin/tsc --project tsconfig.build.json",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "prettier": "^1.15.0",
+    "stylelint": "^9.9.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-scss": "^3.4.0",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-consistent-codestyle": "^1.14.0",
+    "typescript": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toba/develop"
+  },
+  "devDependencies": {
+    "@types/prettier": "^1.15.2",
+    "@types/stylelint": "^9.4.1"
+  }
 }
