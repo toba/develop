@@ -1,0 +1,35 @@
+// Configuration will be referenced at /node_modules/@toba/develop/tsconfig.json
+// so the path to the project root is ../../../.
+{
+   "compilerOptions": {
+      "target": "es2017",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "newLine": "LF",
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "sourceMap": false,
+      "allowJs": false,
+      "checkJs": false,
+      "outDir": "../../../dist",
+      "removeComments": false,
+      "declaration": true,
+      "alwaysStrict": true,
+      "strictNullChecks": true,
+      "strictBindCallApply": true,
+      "skipLibCheck": true,
+      "allowSyntheticDefaultImports": false,
+      "forceConsistentCasingInFileNames": true,
+      "jsx": "react",
+      "lib": ["dom", "es2017", "webworker", "es2018.intl"]
+   },
+   "include": ["../../../src/**/*.ts*"],
+   "exclude": [
+      "../../../node_modules/",
+      "../../../dist/",
+      "../../../src/**/*.test.ts*",
+      "../../../src/**/__mocks__"
+   ]
+}

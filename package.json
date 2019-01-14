@@ -17,7 +17,7 @@
     "prettier",
     "index.js",
     "index.d.ts",
-    "tsconfig.json",
+    "tsconfig.dev.json",
     "tsconfig.lib.json",
     "tsconfig.pkg.json"
   ],
@@ -32,7 +32,7 @@
     "stylelint-plugin"
   ],
   "scripts": {
-    "prepublishOnly": "./node_modules/.bin/tsc --project tsconfig.build.json",
+    "prepublishOnly": "./node_modules/.bin/tsc",
     "test": "jest --coverage"
   },
   "dependencies": {
