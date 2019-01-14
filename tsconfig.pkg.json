@@ -11,7 +11,7 @@
 // This is not the same TypeScript configuration needed to bundle the various
 // packages. For that see @toba/build.
 {
-   "extends": "./tsconfig",
+   "extends": "./tsconfig.dev",
    "compilerOptions": {
       "rootDir": "../../../",
       "baseUrl": "../../../packages/",

@@ -1,7 +1,7 @@
 // This configuration is expected for use directly by tsc to generate a /dist
 // folder for npm publication.
 {
-   "extends": "./tsconfig",
+   "extends": "./tsconfig.dev",
    "compilerOptions": {
       "sourceMap": false,
       // Projects built as a library should be compiled as ES6 modules to
