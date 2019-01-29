@@ -1,3 +1,7 @@
+/**
+ * Future conversion to ESLint
+ * @see http://artsy.github.io/blog/2019/01/29/from-tslint-to-eslint/
+ */
 export = {
    extends: ['tslint-config-prettier', 'tslint-consistent-codestyle'],
    rules: {
