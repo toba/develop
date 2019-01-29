@@ -20,7 +20,9 @@
       "strictNullChecks": true,
       "strictBindCallApply": true,
       "skipLibCheck": true,
-      "allowSyntheticDefaultImports": false,
+      // must be true for consistency with @babel/preset-typescript used by Jest
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
       "forceConsistentCasingInFileNames": true,
       "jsx": "react",
       "lib": ["dom", "es2017", "webworker", "es2018.intl"]
