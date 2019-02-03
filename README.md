@@ -30,14 +30,12 @@ Create `tsconfig.json` with
 
 ## Style and Linting
 
-### [tslint](https://palantir.github.io/tslint/)
+### [eslint](https://palantir.github.io/tslint/)
 
-Shared `tslint` configuration with [tslint-config-prettier](https://github.com/alexjoverm/tslint-config-prettier) and [tslint-consistent-codestyle](https://github.com/ajafff/tslint-consistent-codestyle). To use, create `tslint.json` with
+Shared `eslint` configuration with [tslint-config-prettier](https://github.com/alexjoverm/tslint-config-prettier) and [tslint-consistent-codestyle](https://github.com/ajafff/tslint-consistent-codestyle). To use, create `.eslintrc.js` with
 
-```json
-{
-   "extends": ["@toba/develop/tslint"]
-}
+```js
+module.exports = require('@toba/develop/eslint');
 ```
 
 ### [stylelint](https://stylelint.io/)

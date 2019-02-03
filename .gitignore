@@ -2,3 +2,8 @@ node_modules
 /prettier
 /style
 /tslint
+/eslint
+eslint.d.ts
+eslint.js
+index.d.ts
+index.js
