@@ -1,6 +1,6 @@
 /**
- * Future conversion to ESLint
- * @see http://artsy.github.io/blog/2019/01/29/from-tslint-to-eslint/
+ * @deprecated
+ * @see https://eslint.org/blog/2019/01/future-typescript-eslint
  */
 export = {
    extends: ['tslint-config-prettier', 'tslint-consistent-codestyle'],

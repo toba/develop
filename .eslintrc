@@ -1,0 +1,20 @@
+{
+   "parser": "@typescript-eslint/parser",
+   "plugins": ["@typescript-eslint"],
+   "extends": [
+      "plugin:@typescript-eslint/recommended",
+      "prettier",
+      "prettier/@typescript-eslint"
+   ],
+   "parserOptions": {
+      "ecmaFeatures": {
+         "jsx": true
+      },
+      "ecmaVersion": 6,
+      "project": "./tsconfig.json",
+      "sourceType": "module"
+   },
+   "rules": {
+      "@typescript-eslint/no-object-literal-type-assertion": "off"
+   }
+}

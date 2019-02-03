@@ -1,7 +1,7 @@
 {
    "name": "@toba/develop",
    "description": "Toba TypeScript and Style Configurations",
-   "version": "4.5.0",
+   "version": "5.0.0",
    "private": false,
    "publishConfig": {
       "access": "public"
@@ -13,7 +13,7 @@
    "license": "MIT",
    "files": [
       "style",
-      "tslint",
+      ".eslintrc",
       "prettier",
       "index.js",
       "index.d.ts",
@@ -23,8 +23,7 @@
    ],
    "keywords": [
       "lint",
-      "tslint",
-      "ts-lint",
+      "eslint",
       "config",
       "typescript",
       "linter",
@@ -36,20 +35,22 @@
       "test": "jest --coverage"
    },
    "dependencies": {
+      "@typescript-eslint/eslint-plugin": "^1.2.0",
+      "eslint": "^5.13.0",
+      "eslint-config-prettier": "^4.0.0",
       "prettier": "^1.16.1",
       "stylelint": "^9.9.0",
       "stylelint-config-standard": "^18.2.0",
       "stylelint-scss": "^3.4.0",
-      "tslint": "^5.11.0",
-      "tslint-config-prettier": "^1.17.0",
-      "tslint-consistent-codestyle": "^1.14.0",
-      "typescript": "^3.2.0"
+      "typescript": "^3.3.1"
    },
    "repository": {
       "type": "git",
       "url": "https://github.com/toba/develop"
    },
    "devDependencies": {
+      "@types/eslint": "^4.16.6",
+      "@types/node": "^10.12.21",
       "@types/prettier": "^1.15.2",
       "@types/stylelint": "^9.4.1"
    }
