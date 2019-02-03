@@ -13,7 +13,7 @@
    "license": "MIT",
    "files": [
       "style",
-      "eslint.js",
+      ".eslintrc",
       "prettier",
       "index.js",
       "index.d.ts",

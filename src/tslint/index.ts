@@ -1,3 +1,7 @@
+/**
+ * @deprecated
+ * @see https://eslint.org/blog/2019/01/future-typescript-eslint
+ */
 export = {
    extends: ['tslint-config-prettier', 'tslint-consistent-codestyle'],
    rules: {
