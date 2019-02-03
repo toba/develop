@@ -36,7 +36,7 @@ Shared `eslint` configuration. To use, create `.eslintrc` with
 
 ```json
 {
-   "extends": ["@toba/develop/.eslintrc"]
+   "extends": ["./node_modules/@toba/develop/.eslintrc"]
 }
 ```
 
