@@ -13,7 +13,7 @@
       "sourceMap": false,
       "allowJs": false,
       "checkJs": false,
-      "outDir": "../../../dist",
+      "outDir": "../../../cjs",
       "removeComments": false,
       "declaration": true,
       "alwaysStrict": true,
