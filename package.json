@@ -1,7 +1,7 @@
 {
    "name": "@toba/develop",
    "description": "Toba TypeScript and Style Configurations",
-   "version": "6.0.1",
+   "version": "6.0.2",
    "private": false,
    "publishConfig": {
       "access": "public"
@@ -17,8 +17,8 @@
       "prettier",
       "index.js",
       "index.d.ts",
-      "tsconfig.dev.json",
-      "tsconfig.lib.json",
+      "tsconfig.cjs.json",
+      "tsconfig.es6.json",
       "tsconfig.pkg.json"
    ],
    "keywords": [
@@ -50,7 +50,7 @@
    },
    "devDependencies": {
       "@types/eslint": "^4.16.6",
-      "@types/node": "^10.12.21",
+      "@types/node": "^11.0.0",
       "@types/prettier": "^1.15.2",
       "@types/stylelint": "^9.4.1"
    }

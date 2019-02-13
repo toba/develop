@@ -1,11 +1,11 @@
 // This configuration is expected for use directly by tsc to generate a /dist
 // folder for npm publication.
 {
-  "extends": "./tsconfig.dev",
-  "compilerOptions": {
-    "lib": ["es2017"],
-    "outDir": "./"
-  },
-  "include": ["./src/**/*.ts*"],
-  "exclude": ["./node_modules/", "./src/**/*.test.ts*", "./src/**/__mocks__"]
+   "extends": "./tsconfig.cjs",
+   "compilerOptions": {
+      "lib": ["es2017"],
+      "outDir": "./"
+   },
+   "include": ["./src/**/*.ts*"],
+   "exclude": ["./node_modules/", "./src/**/*.test.ts*", "./src/**/__mocks__"]
 }
