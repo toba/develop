@@ -4,7 +4,8 @@
    "extends": "./tsconfig.cjs",
    "compilerOptions": {
       "lib": ["es2017"],
-      "outDir": "./"
+      "outDir": "./",
+      "typeRoots": ["node_modules/@types", "node_modules/@toba/types"]
    },
    "include": ["./src/**/*.ts*"],
    "exclude": ["./node_modules/", "./src/**/*.test.ts*", "./src/**/__mocks__"]
