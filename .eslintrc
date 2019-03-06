@@ -28,6 +28,7 @@
       "@typescript-eslint/no-explicit-any": "off",
       "react/jsx-uses-react": "warn",
       "react/jsx-uses-vars": "warn",
-      "react/jsx-key": "warn"
+      "react/jsx-key": "warn",
+      "react/prop-types": "off"
    }
 }
