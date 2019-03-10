@@ -25,7 +25,7 @@
       "esModuleInterop": true,
       "forceConsistentCasingInFileNames": true,
       "typeRoots": [
-         "../../../node_modules/types",
+         "../../../node_modules/@types",
          "../../../node_modules/@toba/types"
       ],
       "jsx": "react",
