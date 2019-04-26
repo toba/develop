@@ -1,7 +1,7 @@
 {
    "name": "@toba/develop",
    "description": "Toba TypeScript and Style Configurations",
-   "version": "6.3.8",
+   "version": "6.4.0",
    "private": false,
    "publishConfig": {
       "access": "public"
@@ -18,7 +18,7 @@
       "index.js",
       "index.d.ts",
       "tsconfig.cjs.json",
-      "tsconfig.es6.json",
+      "tsconfig.esm.json",
       "tsconfig.pkg.json"
    ],
    "keywords": [
@@ -36,16 +36,16 @@
    },
    "dependencies": {
       "@toba/types": "^1.0.0",
-      "@typescript-eslint/eslint-plugin": "^1.2.0",
-      "eslint": "^5.13.0",
-      "eslint-config-prettier": "^4.0.0",
+      "@typescript-eslint/eslint-plugin": "^1.7.0",
+      "eslint": "^5.16.0",
+      "eslint-config-prettier": "^4.2.0",
       "eslint-plugin-react": "^7.12.4",
-      "eslint-plugin-react-hooks": "^1.4.0",
-      "prettier": "^1.16.1",
+      "eslint-plugin-react-hooks": "^1.6.0",
+      "prettier": "^1.17.0",
       "stylelint": "^9.9.0",
-      "stylelint-config-standard": "^18.2.0",
-      "stylelint-scss": "^3.4.0",
-      "typescript": "^3.3.1"
+      "stylelint-config-standard": "^18.3.0",
+      "stylelint-scss": "^3.6.0",
+      "typescript": "^3.4.5"
    },
    "repository": {
       "type": "git",
@@ -54,7 +54,7 @@
    "devDependencies": {
       "@types/eslint": "^4.16.6",
       "@types/node": "11.10.0",
-      "@types/prettier": "^1.15.2",
-      "@types/stylelint": "^9.4.1"
+      "@types/prettier": "^1.16.3",
+      "@types/stylelint": "^9.10.0"
    }
 }

@@ -7,7 +7,7 @@
       // Projects built as a library should be compiled as ES6 modules to
       // enable tree shaking when subsequently imported and bundled.
       "module": "esnext",
-      "outDir": "../../../es6",
+      "outDir": "../../../esm",
       "lib": ["dom", "es2017", "es2018.intl"]
    }
 }

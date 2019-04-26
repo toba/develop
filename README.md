@@ -9,12 +9,6 @@ Shared configurations for the development environment, including linting,
 code style and TypeScript compilation.
 
 ```sh
-yarn add @toba/develop --dev
-```
-
-or
-
-```sh
 npm install @toba/develop --save-dev
 ```
 
