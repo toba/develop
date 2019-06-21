@@ -3,7 +3,7 @@
    "plugins": ["@typescript-eslint", "react-hooks"],
    "extends": [
       "plugin:@typescript-eslint/recommended",
-      "plugin:react/recommended",
+      "plugin:@stencil/recommended",
       "prettier",
       "prettier/@typescript-eslint"
    ],
@@ -15,22 +15,11 @@
       "project": "./tsconfig.json",
       "sourceType": "module"
    },
-   "settings": {
-      "react": {
-         "version": "detect"
-      }
-   },
    "rules": {
       "@typescript-eslint/no-object-literal-type-assertion": "off",
       "@typescript-eslint/explicit-function-return-type": "off",
       "@typescript-eslint/no-non-null-assertion": "off",
       "@typescript-eslint/explicit-member-accessibility": "off",
-      "@typescript-eslint/no-explicit-any": "off",
-      "react/jsx-uses-react": "warn",
-      "react/jsx-uses-vars": "warn",
-      "react/jsx-key": "warn",
-      "react/prop-types": "off",
-      "react-hooks/rules-of-hooks": "error",
-      "react-hooks/exhaustive-deps": "warn"
+      "@typescript-eslint/no-explicit-any": "off"
    }
 }

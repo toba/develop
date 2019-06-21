@@ -1,7 +1,7 @@
 {
    "name": "@toba/develop",
    "description": "Toba TypeScript and Style Configurations",
-   "version": "6.4.3",
+   "version": "6.5.0",
    "private": false,
    "publishConfig": {
       "access": "public"
@@ -36,16 +36,16 @@
       "test": "jest --coverage"
    },
    "dependencies": {
-      "@typescript-eslint/eslint-plugin": "^1.8.0",
+      "@stencil/eslint-plugin": "0.0.3",
+      "@typescript-eslint/eslint-plugin": "^1.10.2",
+      "@typescript-eslint/parser": "^1.10.2",
       "eslint": "^5.16.0",
-      "eslint-config-prettier": "^4.2.0",
-      "eslint-plugin-react": "^7.13.0",
-      "eslint-plugin-react-hooks": "^1.6.0",
-      "prettier": "^1.17.0",
+      "eslint-config-prettier": "^4.3.0",
+      "prettier": "^1.18.2",
       "stylelint": "^9.9.0",
       "stylelint-config-standard": "^18.3.0",
-      "stylelint-scss": "^3.6.1",
-      "typescript": "^3.4.5"
+      "stylelint-scss": "^3.8.0",
+      "typescript": "^3.5.2"
    },
    "repository": {
       "type": "git",
@@ -54,7 +54,7 @@
    "devDependencies": {
       "@types/eslint": "^4.16.6",
       "@types/node": "11.10.0",
-      "@types/prettier": "^1.16.3",
+      "@types/prettier": "^1.16.4",
       "@types/stylelint": "^9.10.0"
    }
 }
