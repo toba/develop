@@ -26,7 +26,8 @@
       "forceConsistentCasingInFileNames": true,
       "typeRoots": [
          "../../../node_modules/@types",
-         "../../../node_modules/@toba/types"
+         "../../../node_modules/@toba/types",
+         "../../../types"
       ],
       "jsx": "react",
       "lib": ["dom", "es2017", "webworker", "es2018.intl"]
