@@ -1,0 +1,12 @@
+// This configuration is expected for use only by Jest, not for building.
+// It does not include test or mock files.
+{
+   "extends": "./tsconfig.cjs",
+   "exclude": [
+      "../../../node_modules/",
+      "../../../esm/",
+      "../../../cjs/",
+      "../../../dist/",
+      "../../../www/"
+   ]
+}
