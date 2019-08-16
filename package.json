@@ -1,7 +1,7 @@
 {
    "name": "@toba/develop",
    "description": "Toba TypeScript and Style Configurations",
-   "version": "6.6.1",
+   "version": "6.6.2",
    "private": false,
    "publishConfig": {
       "access": "public"
@@ -33,6 +33,7 @@
       "stylelint-plugin"
    ],
    "scripts": {
+      "preinstall": "npm i -g eslint prettier stylelint",
       "prepublishOnly": "./node_modules/.bin/tsc",
       "test": "jest --coverage"
    },
@@ -40,22 +41,24 @@
       "@stencil/eslint-plugin": "^0.0.3",
       "@typescript-eslint/eslint-plugin": "^1.13.0",
       "@typescript-eslint/parser": "^1.13.0",
-      "eslint": "^6.1.0",
       "eslint-config-prettier": "^6.0.0",
-      "prettier": "^1.18.2",
-      "stylelint": "^10.0.0",
       "stylelint-config-standard": "^18.3.0",
       "stylelint-scss": "^3.9.2",
       "typescript": "^3.5.3"
-   },
-   "repository": {
-      "type": "git",
-      "url": "https://github.com/toba/develop"
    },
    "devDependencies": {
       "@types/eslint": "^4.16.6",
       "@types/node": "^12.6.8",
       "@types/prettier": "^1.18.0",
       "@types/stylelint": "^9.10.0"
+   },
+   "peerDependencies": {
+      "eslint": "^6.1.0",
+      "prettier": "^1.18.2",
+      "stylelint": "^10.0.0"
+   },
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/toba/develop"
    }
 }
