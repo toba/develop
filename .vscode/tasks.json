@@ -6,7 +6,7 @@
          "presentation": {
             "clear": true
          },
-         "command": "./node_modules/.bin/tsc",
+         "command": "tsc",
          "type": "shell",
          "group": "build",
          "problemMatcher": ["$tsc"]

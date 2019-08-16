@@ -1,7 +1,6 @@
 dependencies:
   eslint-config-prettier: 6.0.0
   stylelint-config-standard: 18.3.0
-  typescript: 3.5.3
 devDependencies:
   '@types/eslint': 4.16.8
   '@types/node': 12.7.2
@@ -139,13 +138,6 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-qe1jfm1Mg7Nq/NSh6XE24gPXROEVsWHxC1LIx//XNlD9iw7YZQGjZNjYN7xGaEG6iKdA8EtNFW6R0gjnVXp+wQ==
-  /typescript/3.5.3:
-    dev: false
-    engines:
-      node: '>=4.2.0'
-    hasBin: true
-    resolution:
-      integrity: sha512-ACzBtm/PhXBDId6a6sDJfroT2pOWt/oOnk4/dElG5G33ZL776N3Y6/6bKZJBFpd+b05F3Ct9qDjMeJmRWtE2/g==
 specifiers:
   '@types/eslint': ^4.16.6
   '@types/node': ^12.6.8
@@ -153,4 +145,3 @@ specifiers:
   '@types/stylelint': ^9.10.0
   eslint-config-prettier: ^6.0.0
   stylelint-config-standard: ^18.3.0
-  typescript: ^3.5.3
