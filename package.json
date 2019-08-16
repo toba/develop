@@ -1,7 +1,7 @@
 {
    "name": "@toba/develop",
    "description": "Toba TypeScript and Style Configurations",
-   "version": "6.6.6",
+   "version": "6.6.7",
    "private": false,
    "publishConfig": {
       "access": "public"
@@ -38,7 +38,8 @@
    },
    "dependencies": {
       "eslint-config-prettier": "^6.0.0",
-      "stylelint-config-standard": "^18.3.0"
+      "stylelint-config-standard": "^18.3.0",
+      "typescript": "^3.5.3"
    },
    "devDependencies": {
       "@types/eslint": "^4.16.6",
