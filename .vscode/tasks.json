@@ -21,23 +21,6 @@
          "type": "shell",
          "group": "none",
          "problemMatcher": []
-      },
-      {
-         "label": "Install Global Dependencies",
-         "command": "npm",
-         "args": [
-            "install",
-            "-g",
-            "eslint",
-            "prettier",
-            "stylelint",
-            "stylelint-scss",
-            "@stencil/eslint-plugin",
-            "@typescript-eslint/eslint-plugin",
-            "@typescript-eslint/parser"
-         ],
-         "type": "shell",
-         "problemMatcher": []
       }
    ]
 }
