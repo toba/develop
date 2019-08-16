@@ -1,33 +1,43 @@
 {
-  "version": "2.0.0",
-  "tasks": [
-    {
-      "label": "Build",
-      "presentation": {
-        "clear": true
+   "version": "2.0.0",
+   "tasks": [
+      {
+         "label": "Build",
+         "presentation": {
+            "clear": true
+         },
+         "command": "./node_modules/.bin/tsc",
+         "type": "shell",
+         "group": "build",
+         "problemMatcher": ["$tsc"]
       },
-      "command": "./node_modules/.bin/tsc",
-      "type": "shell",
-      "group": "build",
-      "problemMatcher": ["$tsc"]
-    },
-    {
-      "label": "Publish",
-      "presentation": {
-        "clear": true
+      {
+         "label": "Publish",
+         "presentation": {
+            "clear": true
+         },
+         "command": "npm",
+         "args": ["publish"],
+         "type": "shell",
+         "group": "none",
+         "problemMatcher": []
       },
-      "command": "npm",
-      "args": ["publish"],
-      "type": "shell",
-      "group": "none",
-      "problemMatcher": []
-    },
-    {
-      "label": "Install Global Dependencies",
-      "command": "npm",
-      "args": ["install", "-g", "jest", "@babel/core"],
-      "type": "shell",
-      "problemMatcher": []
-    }
-  ]
+      {
+         "label": "Install Global Dependencies",
+         "command": "npm",
+         "args": [
+            "install",
+            "-g",
+            "eslint",
+            "prettier",
+            "stylelint",
+            "stylelint-scss",
+            "@stencil/eslint-plugin",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser"
+         ],
+         "type": "shell",
+         "problemMatcher": []
+      }
+   ]
 }
