@@ -1,0 +1,8 @@
+// CommonJS build alongside an ESM build which should have the definition files.
+{
+   "extends": "./tsconfig.cjs",
+   "compilerOptions": {
+      "declaration": false,
+      "removeComments": true
+   }
+}
