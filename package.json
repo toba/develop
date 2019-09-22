@@ -1,7 +1,7 @@
 {
    "name": "@toba/develop",
    "description": "Toba TypeScript and Style Configurations",
-   "version": "6.7.1",
+   "version": "6.7.2",
    "private": false,
    "publishConfig": {
       "access": "public"
@@ -42,18 +42,17 @@
       "@typescript-eslint/eslint-plugin": "^2.3.0",
       "@typescript-eslint/parser": "^2.3.0",
       "eslint": "^6.1.0",
-      "eslint-config-airbnb": "^18.0.1",
-      "eslint-plugin-import": "^2.18.2",
-      "eslint-plugin-jsx-a11y": "^6.2.3",
+      "eslint-config-airbnb-base": "^14.0.0",
       "eslint-config-prettier": "^6.3.0",
+      "eslint-plugin-import": "^2.18.2",
       "prettier": "^1.18.2",
       "stylelint": "^11.0.0",
-      "stylelint-config-standard": "^18.3.0",
-      "stylelint-scss": "^3.11.0",
+      "stylelint-config-standard": "^19.0.0",
+      "stylelint-scss": "^3.11.1",
       "typescript": "^3.6.3"
    },
    "devDependencies": {
-      "@types/eslint": "^4.16.8",
+      "@types/eslint": "^6.0.0",
       "@types/node": "^12.7.5",
       "@types/prettier": "^1.18.2",
       "@types/stylelint": "^9.10.1"
