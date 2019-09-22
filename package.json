@@ -1,7 +1,7 @@
 {
    "name": "@toba/develop",
    "description": "Toba TypeScript and Style Configurations",
-   "version": "6.7.2",
+   "version": "6.7.3",
    "private": false,
    "publishConfig": {
       "access": "public"
@@ -41,7 +41,7 @@
       "@stencil/eslint-plugin": "0.0.3",
       "@typescript-eslint/eslint-plugin": "^2.3.0",
       "@typescript-eslint/parser": "^2.3.0",
-      "eslint": "^6.1.0",
+      "eslint": "^6.4.0",
       "eslint-config-airbnb-base": "^14.0.0",
       "eslint-config-prettier": "^6.3.0",
       "eslint-plugin-import": "^2.18.2",
