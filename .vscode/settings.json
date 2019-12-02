@@ -1,5 +1,6 @@
 {
    "jest.autoEnable": false,
    "jest.runAllTestsFirst": false,
-   "eslint.enable": true
+   "eslint.enable": true,
+   "typescript.tsdk": "node_modules\\typescript\\lib"
 }
