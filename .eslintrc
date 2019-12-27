@@ -17,6 +17,12 @@
       "sourceType": "module"
    },
    "rules": {
+      "import/prefer-default-export": "off",
+      "lines-between-class-members": "off",
+      "@stencil/ban-side-effects": "off",
+      "@stencil/own-methods-must-be-private": "off",
+      "@stencil/own-props-must-be-private": "off",
+      "@stencil/required-jsdoc": "off",
       "@typescript-eslint/no-object-literal-type-assertion": "off",
       "@typescript-eslint/explicit-function-return-type": "off",
       "@typescript-eslint/no-non-null-assertion": "off",
