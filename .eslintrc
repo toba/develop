@@ -1,6 +1,6 @@
 {
    "parser": "@typescript-eslint/parser",
-   "plugins": ["@typescript-eslint"],
+   "plugins": ["@typescript-eslint", "jest"],
    "extends": [
       "airbnb-base",
       "plugin:@typescript-eslint/recommended",
@@ -40,5 +40,8 @@
       "@typescript-eslint/no-explicit-any": "off",
       "@typescript-eslint/no-object-literal-type-assertion": "off",
       "@typescript-eslint/no-non-null-assertion": "off"
+   },
+   "env": {
+      "jest/globals": true
    }
 }
