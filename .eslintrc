@@ -17,8 +17,12 @@
       "sourceType": "module"
    },
    "rules": {
+      "eqeqeq": "off",
+      "import/extensions": "off",
       "import/prefer-default-export": "off",
       "lines-between-class-members": "off",
+      "no-plusplus": "off",
+      "spaced-comment": "off",
       "@stencil/ban-side-effects": "off",
       "@stencil/own-methods-must-be-private": "off",
       "@stencil/own-props-must-be-private": "off",
