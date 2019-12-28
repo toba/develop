@@ -28,6 +28,7 @@
       "no-bitwise": "off",
       "no-cond-assign": "warn",
       "no-nested-ternary": "off",
+      "no-new-object": "off",
       "no-param-reassign": "warn",
       "no-return-assign": "warn",
       "no-shadow": "warn",
