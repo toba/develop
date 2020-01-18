@@ -1,4 +1,4 @@
-import { StyleConfig } from './types';
+import { StyleConfig } from './types'
 
 /**
  * @see https://github.com/stylelint/stylelint/blob/master/docs/developer-guide/plugins.md

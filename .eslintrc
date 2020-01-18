@@ -34,6 +34,7 @@
       "no-shadow": "warn",
       "prefer-destructuring": "warn",
       "prefer-template": "off",
+      "semi": ["error", "never"],
       "@stencil/ban-exported-const-enums": "off",
       "@stencil/ban-side-effects": "off",
       "@stencil/own-methods-must-be-private": "off",

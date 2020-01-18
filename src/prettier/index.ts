@@ -1,4 +1,4 @@
-import { Options } from 'prettier';
+import { Options } from 'prettier'
 
 /**
  * @see https://prettier.io/docs/en/options.html
@@ -6,5 +6,6 @@ import { Options } from 'prettier';
  */
 export = {
    singleQuote: true,
-   tabWidth: 3
+   tabWidth: 3,
+   semi: false
 } as Options;
