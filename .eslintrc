@@ -32,7 +32,7 @@
       "no-param-reassign": "warn",
       "no-return-assign": "warn",
       "no-shadow": "warn",
-      "prefer-destructuring": "warn",
+      "prefer-destructuring": "off",
       "prefer-template": "off",
       "semi": ["error", "never"],
       "@stencil/ban-exported-const-enums": "off",
