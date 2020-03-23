@@ -1,7 +1,7 @@
 {
    "name": "@toba/develop",
    "description": "Toba TypeScript and Style Configurations",
-   "version": "6.8.1",
+   "version": "6.8.2",
    "private": false,
    "publishConfig": {
       "access": "public"
@@ -40,24 +40,24 @@
    },
    "dependencies": {
       "@stencil/eslint-plugin": "^0.3.1",
-      "@typescript-eslint/eslint-plugin": "^2.23.0",
-      "@typescript-eslint/parser": "^2.23.0",
+      "@typescript-eslint/eslint-plugin": "^2.24.0",
+      "@typescript-eslint/parser": "^2.24.0",
       "eslint": "^6.8.0",
       "eslint-config-airbnb-base": "^14.1.0",
-      "eslint-config-prettier": "^6.10.0",
+      "eslint-config-prettier": "^6.10.1",
       "eslint-plugin-import": "^2.20.1",
       "eslint-plugin-jest": "^23.8.2",
       "eslint-plugin-react": "^7.19.0",
-      "prettier": "^1.19.1",
+      "prettier": "^2.0.0",
       "stylelint": "^13.0.0",
       "stylelint-config-standard": "^20.0.0",
-      "stylelint-scss": "^3.15.0",
+      "stylelint-scss": "^3.16.0",
       "typescript": "^3.8.3"
    },
    "devDependencies": {
       "@types/eslint": "^6.1.8",
-      "@types/node": "^13.9.1",
-      "@types/prettier": "^1.19.0",
+      "@types/node": "^13.9.3",
+      "@types/prettier": "^1.19.1",
       "@types/stylelint": "^9.10.1"
    },
    "repository": {
